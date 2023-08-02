@@ -1,0 +1,21 @@
+header{
+    background-color: rgb(0, 0, 2);
+    margin: 0;
+}
+
+.menu{
+
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: white;
+
+}
+.menu ul li:hover{
+    color: brown;
+    cursor: pointer;
+    transition: 0.4s case-in-out;
+
+}
