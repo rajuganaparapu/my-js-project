@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'About';
+  constructor() { }
+
+  menuvariable: boolean = false;
+  menu_icon_variable: boolean = false;
+  openMenu() {
+    this.menuvariable =! this.menuvariable;
+    this.menu_icon_variable =! this.menu_icon_variable
+  }
 }
